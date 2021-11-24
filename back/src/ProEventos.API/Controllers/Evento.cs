@@ -21,5 +21,23 @@ namespace ProEventos.API.Controllers
         {
             return "get";
         }
+
+        [HttpPost]
+        public string Post()
+        {
+            return "post";
+        }
+
+        [HttpPut("{id}")]
+        public string Put(int id)
+        {
+            return $"put = {id}";
+        }
+
+        [HttpDelete("{id}")]
+        public string Delete(int id)
+        {
+            return $"delete = {id}";
+        }
     }
 }
