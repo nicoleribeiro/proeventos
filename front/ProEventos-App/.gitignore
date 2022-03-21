@@ -5,6 +5,9 @@
 /tmp
 /out-tsc
 /bazel-out
+ProEventos.db-wal
+ProEventos.API.dll
+ProEventos.API.pdb
 
 # Node
 /node_modules
